@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <View
       style={{
-        marginVertical: 40,
+        marginVertical: 30,
         backgroundColor: "#fff",
         borderRadius: 10,
         width: "100%",

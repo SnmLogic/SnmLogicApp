@@ -6,23 +6,23 @@ import TodayTask from "./../Components/Home/TodayTask";
 import Banner from "./../Components/Home/Banner";
 import Advanced from "../Components/Home/Advanced";
 
-export default function Home() {
+export default function Home({ navigation }) {
   return (
     <View
       style={{
         width: "100%",
         height: "100%",
-        backgroundColor: "#853DFA",
+        backgroundColor: "#6532F6",
         paddingTop: 30,
         paddingHorizontal: 20,
       }}
     >
       <Header />
-      <TodayTask />
+      <TodayTask navigation={navigation} />
       <Banner />
-      <Advanced />
+      <Advanced navigation={navigation} />
 
-      <StatusBar backgroundColor="#853DFA" style="light" />
+      <StatusBar backgroundColor="#6532F6" style="light" />
     </View>
   );
 }

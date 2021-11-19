@@ -10,7 +10,7 @@ export default function Welcome({ navigation }) {
   return (
     <View
       style={{
-        backgroundColor: "#3D2CF9",
+        backgroundColor: "#A032F6",
         width: "100%",
         height: "100%",
         alignItems: "center",
@@ -21,7 +21,7 @@ export default function Welcome({ navigation }) {
       <WelcomeMainText />
       <WelcomeSubText />
       <WelcomeButton navigation={navigation} />
-      <StatusBar backgroundColor="#3D2CF9" style="light" />
+      <StatusBar backgroundColor="#A032F6" style="light" />
     </View>
   );
 }

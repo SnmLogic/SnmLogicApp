@@ -1,4 +1,4 @@
-# My Universal React Project
+# Snm Logic App
 
 <p>
   <!-- iOS -->

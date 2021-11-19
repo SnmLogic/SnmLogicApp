@@ -6,7 +6,7 @@ export default function Header() {
     <View
       style={{
         flexDirection: "row",
-        marginTop: 20,
+        marginVertical: 20,
         alignItems: "center",
         justifyContent: "space-between",
       }}
